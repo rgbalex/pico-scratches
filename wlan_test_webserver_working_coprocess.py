@@ -3,9 +3,9 @@ Basic multi thread example
 """
 
 import sys
-import rp2
+import rp2 # type: ignore
 import socket
-import network
+import network # type: ignore
 from time import sleep
 from picozero import pico_led
 import asyncio
